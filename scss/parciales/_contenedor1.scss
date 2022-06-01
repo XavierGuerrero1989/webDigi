@@ -1,0 +1,22 @@
+@import "./variables";
+
+.contenedor1{
+    background-color: $color-celeste;
+    font-family: $font-normal;
+    color: white;
+    font-size: 13px;
+
+    &__row{
+        height: 40px;
+    }
+
+    &__link{
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+            color: white;
+        }
+    }
+}
+

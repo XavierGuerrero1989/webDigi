@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.contenedor1 {
+  background-color: #48adff;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 13px; }
+  .contenedor1__row {
+    height: 40px; }
+  .contenedor1__link {
+    text-decoration: none;
+    color: white; }
+    .contenedor1__link:hover {
+      color: white; }
