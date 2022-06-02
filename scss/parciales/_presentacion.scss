@@ -1,0 +1,17 @@
+@import "./variables";
+
+.presentacion{
+    font-family: $font-normal;
+    font-size: 2rem;
+    padding: 20px;
+    font-weight: bold;
+    color: $color-celeste;
+
+    &__desc{
+        font-size: 1.2rem;
+
+        &--special{
+            color: $color-celeste;
+        }
+    }
+}

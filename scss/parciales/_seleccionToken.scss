@@ -1,0 +1,27 @@
+@import "./variables";
+
+.seleccionToken{
+    background-color: $color-celeste;
+    padding: 20px;
+    overflow: hidden;
+
+    &__item{
+        margin: 20px;
+        overflow: hidden;
+    }
+
+    &__img{
+        height: 250px;
+        transition: transform .2s;
+        overflow: hidden;
+
+        &:hover {
+            transform: scale(1.1); 
+          }
+    }
+
+    &__boton{
+        background-color: $color-celeste;
+        border-color: $color-celeste;
+    }
+}

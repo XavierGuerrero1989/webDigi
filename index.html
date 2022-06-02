@@ -25,14 +25,304 @@
             </div>
         </div>
     </div>
-    <!-- NAVBAR -->
+    <!-- NAVBAR - NUEVO LOOK -->
+    <div class="container-fluid d-flex justify-content-center miniNav">
+        <div class="row">
+            <a href="https://www.digilogix.com.ar/Home/Index"><img src="./assets/logo_header.png" alt="" class="col-md-6 miniNav__img"></a>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mainNav" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active mainNav__item" aria-current="page" href="https://www.digilogix.com.ar/"><strong>Inicio</strong></a>
+              <a class="nav-link mainNav__item" href="https://www.digilogix.com.ar/CertificadoSuscriptor/EstadosCertificados"><strong>Estados Certificados</strong></a>
+              <a class="nav-link mainNav__item" href="https://www.digilogix.com.ar/Documentacion/Index"><strong>Documentos</strong></a>
+              <a class="nav-link mainNav__item" href="https://www.digilogix.com.ar/Descargas"><strong>Descargas</strong></a>
+              <a class="nav-link mainNav__item" href="https://www.digilogix.com.ar/Home/Contact"><strong>Contacto</strong></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- TITULO Y PRESENTACION -->
+
+    <div class="container-fluid d-flex justify-content-center presentacion">
+        <div class="row">
+            <P class="col-md-12 presentacion__titulo"><strong>MANUAL INTERACTIVO DE INSTRUCCIONES PARA FIRMA DIGITAL</strong></P>
+        </div>
+    </div>
+    <div class="container-fluid d-flex justify-content-center">
+        <div class="row">
+            <p class="col-md-12 presentacion__desc">En este manual de instrucciones, podra encontrar y seguir paso a paso las indicaciones para configurar y usar su firma digital adquirida en <span class="presentacion__desc--special">DIGILOGIX</span>. <br>En primer lugar debera seleccionar su token, el cual retiro oportunamente en nuestras oficinas, y luego debera seguir los pasos que se indican debajo. </p>
+        </div>
+    </div>
+
+    <!-- SELECCION TOKENS -->
+
+    <div class="container-fluid d-flex justify-content-center seleccionToken">
+        <div class="row">
+            <div class="card seleccionToken__item" style="width: 18rem;">
+                <a href=""><img src="./assets/safenet.jpg" class="card-img-top seleccionToken__img" alt="..."></a>
+                <div class="card-body text-center">
+                  <h5 class="card-title">Safenet 5110</h5>
+                  <a href="#" class="btn btn-primary seleccionToken__boton" id="safeNet">Seleccionar</a>
+                </div>
+            </div>
+            <div class="card seleccionToken__item" style="width: 18rem;">
+                <img src="./assets/crypto.png" class="card-img-top seleccionToken__img" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Crypto ID</h5>
+                  <a href="#" class="btn btn-primary seleccionToken__boton">Seleccionar</a>
+                </div>
+            </div>
+            <div class="card seleccionToken__item" style="width: 18rem;">
+                <img src="./assets/epass2003.png" class="card-img-top seleccionToken__img" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Epass 2003</h5>
+                  <a href="#" class="btn btn-primary seleccionToken__boton">Seleccionar</a>
+                </div>
+            </div>
+            <div class="card seleccionToken__item" style="width: 18rem;">
+                <img src="./assets/athena.jpg" class="card-img-top seleccionToken__img" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Athena</h5>
+                  <a href="#" class="btn btn-primary seleccionToken__boton">Seleccionar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- INSTRUCTIVO -->
+
+    <article class="container-fluid instructivo" id="safenetInst" style="display: none;">
+        <div class="row d-flex justify-content-center">
+            <h2 class="col-md-12 text-center">PASO 1: Descarga e instalacion del Driver del token.</h2>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <p class="col-md-12 text-center">Haga click sobre el boton "DESCARGAR DRIVER" que se encuentra debajo de este parrafo y ejecute el archivo que se descargó.</p>
+            <a href="./assets/SafeNet.exe" class="btn btn-primary col-md-1">DESCARGAR DRIVER</a>
+        </div>
+
+    <!-- IMAGENES DE INSTALACION  -->
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-3">
+                <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/safenet/safenetSetup1.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/safenet/safenetSetup2.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/safenet/safenetSetup3.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/safenet/safenetSetup4.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/safenet/safenetSetup5.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/safenet/safenetSetup6.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/safenet/safenetSetup7.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+            <h2 class="col-md-12 text-center">PASO 2: Configuración de ACROBAT READER.</h2>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <p class="text-center">Aclaracion: Se recomienda el uso de ACROBAT READER DC (Version gratuita) para la utilizacion de la firma digital.</p>
+            <p class="text-center">Realizar los siguiente clicks, dentro de acrobat reader, en el siguiente orden:</p>
+            <ol class="text-center">
+                <ul>Edicion.</ul>
+                <ul>Preferencias.</ul>
+                <ul>Firmas.</ul>
+                <ul>Verificacion.</ul>
+                <ul>Mas.</ul>
+                <ul>Validando Firmas.</ul>
+                <ul>Validando documentos certificados.</ul>
+            </ol>
+        </div>
+
+        <!-- IMAGENES DE CONFIGURACION  -->
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-5">
+                <div id="carouselExampleControls1" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/acrobat/acrobarPaso1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/acrobat/acrobarPaso2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/acrobat/acrobarPaso3.png" class="d-block w-100" alt="...">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+            <h2 class="col-md-12 text-center">PASO 3: PASOS PARA FIRMAR UN DOCUMENTO (Solo en Acrobat Reader).</h2>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <p class="text-center">Realizar los siguiente clicks, dentro de acrobat reader, en el siguiente orden, y con el PDF que se quiera firmar:</p>
+            <ol class="text-center">
+                <ul>Herramientas.</ul>
+                <ul>Certificados.</ul>
+                <ul>Firmar Digitalmente.</ul>
+                <ul>Aceptar.</ul>
+                <ul>Realizar un recuadro con el mouse, dentro del archivo, donde desee colocar la parte visual de su firma digital.</ul>
+                <ul>Seleccionar su firma digital, y pulsar "Firmar".</ul>
+                <ul>Guardar el PDF firmado, con un nombre diferente al original.</ul>
+                <ul>Ingresar contraseña del token.</ul>
+                <ul>Pulsar "Aceptar".</ul>
+            </ol>
+        </div>
+
+        <!-- IMAGENES PARA FIRMAR -->
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-5">
+                <div id="carouselExampleControls2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/firmar/firmarPaso1.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/firmar/firmarPaso2.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/firmar/firmarPaso3.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/firmar/firmarPaso4.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/firmar/firmarPaso5.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/firmar/firmarPaso6.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/firmar/firmarPaso7.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/firmar/firmarPaso8.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/firmar/firmarPaso9.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+
+        <!-- VALIDACION DE FIRMAS -->
+
+        <div class="row d-flex justify-content-center">
+            <h2 class="col-md-12 text-center">PASO ADICIONAL: VALIDAR LA FIRMA DIGITAL Y QUE SE OBSERVE COMO VALIDA.</h2>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <p class="col-md-12 text-center">Haga click sobre el boton "DESCARGAR INSTALADOR" que se encuentra debajo de este parrafo y realice los siguientes pasos:</p>
+            <ol class="text-center">
+                <ul>Ejecutar el archivo que se descargo.</ul>
+                <ul>Ejecutar con permisos de administrador el icono que se creo en el escritorio (boton derecho sobre el icono, "ejecutar como administrador").</ul>
+                <ul>Cerrar el cuadro de dialogo que muestra 2 certificados con un tilde verde de "instalado".</ul>
+            </ol>
+            <a href="./assets/Configuracion Digilogix.exe" class="btn btn-primary col-md-1">DESCARGAR INSTALADOR</a>
+        </div>
+
+        <!-- IMAGENES PARA VALIDACION -->
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-3">
+                <div id="carouselExampleControls3" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/validacion/validarPaso1.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/validacion/validarPaso2.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/validacion/validarPaso3.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/validacion/validarPaso4.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/validacion/validarPaso5.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/validacion/validarPaso6.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/validacion/validarPaso7.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+
+    </article>
+
+    <!-- FOOTER -->
+
+    <footer class="footer text-center">
+        <img src="./assets/logoGris.png" alt="" class="footer__img"> <span>© 2022 - Buenos Aires Argentina.</span> 
+    </footer>
 
 
 
 
-
-
-
+    <script src="./js/safenet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
