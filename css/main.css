@@ -50,10 +50,8 @@
     transition: transform .2s;
     overflow: hidden; }
     .seleccionToken__img:hover {
-      transform: scale(1.1); }
-  .seleccionToken__boton {
-    background-color: #48adff;
-    border-color: #48adff; }
+      transform: scale(1.1);
+      cursor: pointer; }
 
 .footer {
   background-color: #e2e2e2;
@@ -62,5 +60,28 @@
   .footer__img {
     padding: 10px; }
 
+.row {
+  padding: 15px; }
+
 .instructivo {
-  background-color: #efeeef; }
+  background-color: #efeeef;
+  font-family: "Open Sans", sans-serif; }
+  .instructivo__titulo {
+    color: #48adff;
+    font-weight: bold; }
+  .instructivo__text {
+    font-weight: bold;
+    font-size: 1.2rem; }
+  .instructivo__list {
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.2rem; }
+  .instructivo__img {
+    border-radius: 20px 20px 20px 20px;
+    border: solid black; }
+  .instructivo__boton {
+    background-color: #48adff;
+    border-color: #48adff; }
+
+.soimg:hover {
+  cursor: pointer; }

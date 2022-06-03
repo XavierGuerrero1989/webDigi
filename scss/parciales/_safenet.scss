@@ -1,0 +1,36 @@
+@import "./variables";
+
+.row{
+    padding: 15px;
+}
+
+.instructivo{
+    background-color: $color-background;
+    font-family: $font-normal;
+
+    &__titulo{
+        color: $color-celeste;
+        font-weight: bold;
+    }
+
+    &__text{
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    &__list{
+        list-style: none;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    &__img{
+        border-radius: 20px 20px 20px 20px;
+        border: solid black;
+    }
+
+    &__boton{
+        background-color: $color-celeste;
+        border-color: $color-celeste;
+    }
+}
