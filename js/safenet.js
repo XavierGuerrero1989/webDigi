@@ -5,6 +5,7 @@ let instMac = document.getElementById("cryptoApple")
 let instWin = document.getElementById("cryptoWin")
 let epassInst = document.getElementById ("epassInst")
 let instAthena = document.getElementById("athenaInst")
+let faqText = document.getElementById("faqTxt")
 
 botonSafeNet.addEventListener("click", function () {
 
@@ -15,6 +16,7 @@ botonSafeNet.addEventListener("click", function () {
         soSelect.style = "display: none;"
         epassInst.style = "display: none;"
         instAthena.style = "display: none;"
+        faqText.style = "display: none;"
     } else { 
         safeNet.style = "display: none;"
     }

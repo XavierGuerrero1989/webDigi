@@ -1,0 +1,18 @@
+@import "./variables";
+
+.faq{
+    background-color: white;
+    color: black;
+    font-family: $font-normal;
+    
+
+    &__titulo{
+        font-size: 2rem;
+        color: $color-celeste;
+        font-weight: bold;
+    }
+
+    &__preg{
+        font-weight: bold;
+    }
+}
