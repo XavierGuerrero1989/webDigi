@@ -4,8 +4,10 @@
     background-color: $color-footer;
     font-family: $font-normal;
     font-weight: bold;
+    font-size: 0.7rem;
 
     &__img{
         padding: 10px;
+        width: 30vh;
     }
 }
