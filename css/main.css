@@ -125,9 +125,12 @@
   .faq__titulo {
     font-size: 2rem;
     color: #48adff;
-    font-weight: bold; }
+    font-weight: bold;
+    padding: 15px; }
   .faq__preg {
     font-weight: bold; }
+  .faq__item {
+    padding: 15px; }
 
 .volverArriba {
   padding: 40px; }

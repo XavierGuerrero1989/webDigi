@@ -10,9 +10,14 @@
         font-size: 2rem;
         color: $color-celeste;
         font-weight: bold;
+        padding: 15px;
     }
 
     &__preg{
         font-weight: bold;
+    }
+
+    &__item{
+        padding: 15px;
     }
 }
