@@ -17,6 +17,7 @@ cryptoBoton.addEventListener("click", function() {
         safeNet.style = "display: none;"
         epassInst.style = "display: none;"
         faqText.style = "display: none;"
+        location.href = "#preCrypto"
     } else { 
         soSelect.style = "display: none;"
         

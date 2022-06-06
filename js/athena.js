@@ -17,6 +17,7 @@ athenaBoton.addEventListener("click", function () {
         safeNet.style = "display: none;"
         epassInst.style = "display: none;"
         faqText.style = "display: none;"
+        location.href = "#athenaInst"
     } else { 
         instAthena.style = "display: none;"
     }

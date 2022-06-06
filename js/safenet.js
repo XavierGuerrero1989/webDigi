@@ -17,6 +17,7 @@ botonSafeNet.addEventListener("click", function () {
         epassInst.style = "display: none;"
         instAthena.style = "display: none;"
         faqText.style = "display: none;"
+        location.href = "#safenetInst"
     } else { 
         safeNet.style = "display: none;"
     }

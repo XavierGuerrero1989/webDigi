@@ -18,6 +18,7 @@ botonFaq.addEventListener("click", function () {
         epassInst.style = "display: none;"
         instAthena.style = "display: none;"
         safeNet.style = "display: none;"
+        
     } else { 
         faqText.style = "display: none;"
     }
